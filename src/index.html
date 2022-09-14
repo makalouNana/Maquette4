@@ -348,7 +348,7 @@
 </section>  -->
 
 <!-- Lastest updates-->
-<section >
+<!-- <section >
                   
   <div class="mx-auto my-10 ">
   <div class="  text-center ">
@@ -429,7 +429,7 @@
       </div>
     </div>
 </div>
-</section> 
+</section>  -->
 
 <!-- Need Any -->
 <section>
@@ -441,15 +441,15 @@
     </div>
   </div>
 
-  <form class="grid grid-cols-2 gap-10 mx-60 ">
+  <form class="grid grid-cols-2 gap-10  md:mx-60">
   
-    <input type="text" id="prenom" class="border px-5 py-3" placeholder="nom">
+    <input type="text" id="prenom" class="border px-5 py-3 md:col-span-1 col-span-2" placeholder="nom">
     
-    <input type="text" id="nom" class="border p-5 py-3" placeholder="prenon">
+    <input type="text" id="nom" class="border p-5 py-3 md:col-span-1 col-span-2" placeholder="prenon">
     
-    <input type="tel" class="border p-5 py-3" placeholder="numero" id="number">
+    <input type="tel" class="border p-5 py-3 md:col-span-1 col-span-2" placeholder="numero" id="number">
   
-    <input type="email" class="border p-5 py-3" placeholder="mail" id="mail" >
+    <input type="email" class="border p-5 py-3 md:col-span-1 col-span-2" placeholder="mail" id="mail" >
   
     <textarea id="avis" cols="30" rows="5" class="col-span-2 resize-none border" ></textarea>
     <input type="submit" value="Submit Ticket" class="col-span-2 bg-sky-700 mx-auto py-3 px-8 text-white font-semibold">
@@ -457,10 +457,12 @@
 
   <div class="flex justify-between items-center bg-blue-700 py-14 my-24 mx-5 px-6 ">
     
-    <div>
-        <p class="text-4xl font-bold w-3/5 text-white">Want to get all the latest updates from SaaS? </p>
-    </div>
-    <div>
+        <div class="w-20">
+          <h2 class="text-4xl font-bold  text-white">Want to get all the latest updates from SaaS? </h2>
+        </div> 
+        
+    
+    <div >
       <input type="email" placeholder="Enter your e-mail" id="mail1" class="px-5 py-0 mr-2 w-80 h-14">
       <label for="mail1" class="bg-blue-900 text-white font-bold py-4 text-sm:px-5 w-6cursor-pointer hover:shadow-xl">Subscribe</label>
     </div>
@@ -469,17 +471,17 @@
  </section>
 
 <!-- footer -->
- <footer class="flex items-center justify-between mx-5 pb-14">
-  <div class="font-bold">
+ <footer class="flex flex-wrap items-center justify-between mx-5 pb-14">
+  <div  class=" my-5 font-semibold">
       <div><img src="../images/logo.svg" class="h-11"></div>
       
       <div class="g text-gray-400 pt-5"><span>© 2025 SaaS Tailwind, Crafted by UIdeck</span></div> 
     </div>
     
     
-    <div>
+    <div class="my-5">
         <span class="text-2xl font-semibold">Quick Links</span>
-        <div class="g text-gray-400 pt-5 font-bold w-fit">
+        <div class=" text-gray-400 pt-5 font-bold w-fit">
           <span class="pr-4">Contact</span>
           <span class="px-4">About Us</span>
           <span class="px-4">FAQ's</span>
@@ -488,9 +490,9 @@
        
         
      </div>
-     <div>
+     <div class="my-5">
         <div class="text-2xl font-semibold">
-          <div class="text-right">Follow Us</div>
+          <div class="md:text-right">Follow Us</div>
         </div>
         <div class="flex pt-5">
           <img src="../images/facebook.svg" class="mr-5">
@@ -500,7 +502,7 @@
         </div>
     </div>
       
- </footer>
+ </footer> -->
 
 
 
